@@ -1,0 +1,78 @@
+/* === style.css === */
+/* Hoja de estilos única para todas las páginas */
+
+/* 1. Body: familia y tamaño de fuente */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* 2. Header: fondo y espaciado */
+  header {
+    background-color: #336699;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  /* 3. Nav: fondo y enlaces */
+  nav {
+    background-color: #224466;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* 4. Main: fondo y espaciado */
+  main {
+    background-color: #f0f0f0;
+    padding: 1rem;
+  }
+  
+  /* 5. Footer: fondo, color y espaciado */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* 6. li dentro de nav u otras listas */
+  ul li {
+    display: inline-block;
+    width: auto;
+    margin-right: 1rem;
+  }
+  
+  /* 7. h1: alineación, fuente y color */
+  h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #222;
+    margin: 0;
+  }
+  
+  /* 8. p: altura de línea */
+  p {
+    line-height: 1.6;
+    margin: 1rem 0;
+  }
+  
+  /* 9. details/summary */
+  details summary {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Fin de style.css */
